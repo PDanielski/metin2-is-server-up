@@ -1,0 +1,24 @@
+servers:
+    srv1:
+      host: srv1.domain.com
+      port: 8201
+      timeout: 5
+    srv2:
+      host: srv2.domain.com
+      port: 8021
+      timeout: 3
+
+#In seconds
+checkRate: 7
+email:
+    sender:
+        auth:
+            username: email@email.com
+            password: fancypassword
+            host: smtphost
+            port: 587
+        addr: server_up@domain.com
+    receivers:
+        - foo@gmail.com
+        - bar@outlook.com
+        - bar@yahoo.com
