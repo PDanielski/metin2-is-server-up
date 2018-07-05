@@ -119,7 +119,7 @@ func createDialer() *gomail.Dialer {
 
 func notifyStatusChange(srvs map[string]Server) {
 	raw := `
-	<b>Ciao bimbo,</b>lo stato del server è cambiato:<br/>
+	<b>Hi,</b>the server state changed:<br/>
 	<table>
 		<thead>
 			<tr>
